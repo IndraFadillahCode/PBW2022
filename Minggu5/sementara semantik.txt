@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layout</title>
+	</head>
+	<body style="background-color: #ccc">
+		<header style ="background-color: #fff">
+			<h1>Layout Semantic Element</h1>
+			<p>Membuat layout HTML dengan semantic element</p>
+			<p>oleh: Indra Fadillah</p>
+		</header>
+		<nav style="background-color: yellow">
+			<aside>
+				<ul>
+					<li>Menu 1</li>
+					<li>Menu 2</li>
+					<li>Menu 3</li>
+				</ul>
+			</aside>
+		</nav>
+		<article style="background-color: #fff">
+			<p>Latihan membuat layout HTML menggunakan Semantic Element Latihan membuat layout HTML menggunakan Semantic Element
+					Latihan membuat layout HTML menggunakan Semantic ElementLatihan membuat layout HTML menggunakan Semantic Element
+			</p>
+		</article>
+		<footer style="background-color: cyan">footer</footer>
+	</body>
+</html>
+<!--http://192.168.11.125/w3school/html/horse.mp3-->

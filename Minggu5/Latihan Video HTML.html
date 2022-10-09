@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan Video HTML</title>
+</head>
+<body>
+    <h1>Contoh Video HTML</h1>
+    <button onclick="playVid()">play</button>
+		<button onclick="pauseVid()">pause</button>
+		<button onclick="durationVid()">duration</button>
+		<button onclick="enableControls()">enable</button>
+		<button onclick="disableControls()">disable</button>
+        <br>
+    <video id ="myvideo" controls>
+        <source src="C:\Users\indra\Documents\Kuliah Semester 1\PBW\Minggu5\-Hey, Mav, why do I hear Latin music-- - acecombat.mp4" type="video/mp4">
+    </video>
+</body>
+<script>
+	var vid=document.getElementById("myvideo");
+	
+		function playVid() {
+			vid.play();
+		}
+		
+		function pauseVid() {
+			vid.pause();
+		}
+		function durationVid() {
+			alert(vid.duration);
+		}
+		function enableControls (){
+		vid.controls = true;
+		vid.load();
+		}
+		function disableControls() {
+		vid.controls = false;
+		vid.load();
+		}
+	</script> 
+	</br>
+</html>
